@@ -35,13 +35,13 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o76lI645_jcUQ29TryGf6aACbZlg",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "LyQtBzQgFzvlJ9kuRaeEDOG0aJRU3mNLfIbMF-NXLvw",
+      useTemplateId: "dg2I-lmt2oME6cwDSu4nG6ypPRy1poewMqdcXB6C-ug	-NXLvw",
       // 所在省份
       province: "广东",
       // 所在城市
       city: "深圳",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      openUrl: "https://s.weibo.com/top/summary/"
+      openUrl: "https://s.weibo.com/"
     }
   ],
 
@@ -50,7 +50,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "LyQtBzQgFzvlJ9kuRaeEDOG0aJRU3mNLfIbMF",
+  CALLBACK_TEMPLATE_ID: "dg2I-lmt2oME6cwDSu4nG6ypPRy1poewMqdcXB6C-ug	",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -82,10 +82,13 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "老婆", "year": "1996", "date": "12-09"},
-    {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-    {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-    {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+    {"type": "生日", "name": "宝贝", "year": "1996", "date": "12-09"},
+    {"type": "生日", "name": "李威", "year": "1996", "date": "11-01"},
+    {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "03-14"},
+    {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"},
+    {"type": "节日", "name": "国庆节", "year": "2022", "date": "10-01"},
+    {"type": "节日", "name": "和宝贝一起回家过年的日子", "year": "2023", "date": "01-22"}
+
   ],
 
   /**
@@ -93,7 +96,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
@@ -103,14 +106,9 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2015-05-01"},
-    // 结婚纪念日
-    {"keyword": "marry_day", date: "2020-01-04"},
-    // 退伍日, 不用可以删掉
-    {"keyword": "ex_day", date: "2022-08-31"},
-    // sakana日
-    // {"keyword": "sakana_day", date: "2022-01-06"},
-    // ... 
+    {"keyword": "love_day", date: "2022-03-14"},
+    // 相识的日子
+    {"keyword": "marry_day", date: "2013-09-01"}
   ],
 
   /** 插槽 */
