@@ -31,7 +31,7 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "dear 熊丽晴",
+      name: "dear ",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o76lI65gW7bvnpDagQkjEwsSVPO4",
       // 你想对他发送的模板消息的模板ID
@@ -45,7 +45,7 @@ export const config = {
     },
     {
       // 想要发送的人的名字
-      name: "dear 熊丽晴",
+      name: "dear ",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "o76lI645_jcUQ29TryGf6aACbZlg",
       // 你想对他发送的模板消息的模板ID
@@ -64,7 +64,7 @@ export const config = {
    */
 
   // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "_T3ytr0zUynKcgT-G55_BVbhckWkrjmEzWvV8MySMis",
+//   CALLBACK_TEMPLATE_ID: "_T3ytr0zUynKcgT-G55_BVbhckWkrjmEzWvV8MySMis",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -96,10 +96,8 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "宝贝", "year": "1996", "date": "12-09"},
-    {"type": "生日", "name": "李威", "year": "1996", "date": "11-01"},
-    {"type": "节日", "name": "恋爱纪念日", "year": "2022", "date": "03-14"},
-    {"type": "节日", "name": "中秋节", "year": "2022", "date": "09-10"},
+    {"type": "生日", "name": "baby", "year": "1996", "date": "12-31"},
+    {"type": "节日", "name": "元旦", "year": "2023", "date": "01-01"},
     {"type": "节日", "name": "国庆节", "year": "2022", "date": "10-01"},
     {"type": "节日", "name": "一起回家过年的日子", "year": "2023", "date": "01-22"}
 
@@ -135,12 +133,12 @@ export const config = {
     // 这样配置的话，就会每次发送这句话
     {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
     // 这样配置的话，就会每次随机选一句话发送
-    {"keyword": "lover_prattle", contents: [
-      "因为太喜欢你，所以看谁都像是情敌。",
-      "申请成为你爱里的永久居民。",
-      "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-      "遇见你，就好像捡到了100斤的运气",
-    ]},
+//     {"keyword": "lover_prattle", contents: [
+//       "因为太喜欢你，所以看谁都像是情敌。",
+//       "申请成为你爱里的永久居民。",
+//       "你很傻，你很笨，可我还是很羡慕你，因为你有我",
+//       "遇见你，就好像捡到了100斤的运气",
+//     ]},
   ],
 
   /** 每日一言 */
